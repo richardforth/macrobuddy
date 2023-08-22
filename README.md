@@ -54,4 +54,4 @@ pyautogui (pip3 install pyutogui)
 # Programming Macros
 
 Each Button on the keypad has a corresponding macroN function, eg Button "1"  maps to "macro1" and so on.
-Edit teh functions using python code and pyautogui functions to acheive complex, time saving macros.
+Edit the nine corresponding functions using python code and pyautogui functions to acheive complex, time saving macros.
