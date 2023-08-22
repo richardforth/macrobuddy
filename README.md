@@ -55,3 +55,14 @@ pyautogui (pip3 install pyutogui)
 
 Each Button on the keypad has a corresponding macroN function, eg Button "1"  maps to "macro1" and so on.
 Edit the nine corresponding functions using python code and pyautogui functions to acheive complex, time saving macros.
+
+
+# Notes
+
+Unless to program in all of the hotkeys and shortcuts required for all of the steps to open up a program and focus on a text field or cell or do what you need to do correctly, you cant just press a button and sit back, you will have 5 seconds to put the mouse pointer / cursor where it needs to be and cick, hence the 5 second delay before the macro starts.
+
+# Testing Macros can cause undefined behaviour / data loss
+
+If you mis-time an action, it is possibel that undefined behaviour can occur, including data loss. 
+
+I am not going to be held liable for your mistakes in programming your macros.
