@@ -3,7 +3,7 @@ A 9 key macro keyboard emulator
 
 # Screenshot
 
-TBA
+![MacroBuddy Interface Screenshot](/MacroBuddy.png?raw=true "MacroBuddy Interface Screenshot")
 
 # About
 
