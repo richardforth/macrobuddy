@@ -111,13 +111,15 @@ class Application(Frame):
 
     ### MODIFY/EDIT MACROS HERE USING PYTHON CODE/PYAUTOGUI KEY COMBINATIONS 
     def macro1(self):
-        """ Type a simple message in any active editor "Hello World!" """
+        """ EXAMPLE: Type a simple message in any active editor "Hello World!" """
+        """ Before the 5 seconds is up you need to click on the editor """
         time.sleep(5) # Leave this line as it creates the 5 second delay
         message="Hello World!"
         self.typit(message)
 
     def macro2(self):
-        """ Type a multi line string into any active editor """
+        """ EXAMPLE: Type a multi line string into any active editor """
+        """ Equally this could be a bunch of commands you run automatically in a terminal """
         time.sleep(5) # Leave this line as it creates the 5 second delay
         message="""Mary had a little lamb,
 whose fleece was white as snow.
@@ -145,9 +147,13 @@ the teacher did reply. """
         self.typit(message)
 
     def macro3(self):
-        """ Brief description of macro """
+        """ EXAMPLE: MS Excel / Open / LibreOfice Calc Select Range and Copy"""
+        """ Before the 5 seconds is up you need to click on the first cell in the range eg A1/A2"""
         time.sleep(5) # Leave this line as it creates the 5 second delay
-        pass
+        # https://pyautogui.readthedocs.io/en/latest/keyboard.html#the-hotkey-function
+        pyautogui.hotkey('ctrl', 'shift', 'right')
+        pyautogui.hotkey('ctrl', 'shift', 'down')
+        pyautogui.hotkey('ctrl', 'c')
 
     def macro4(self):
         """ Brief description of macro """
