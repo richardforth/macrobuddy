@@ -14,7 +14,7 @@ A 9 key programmable* software based macro keyboard.
 
 # Usage
 
-Keys 1, 2 and 3 come pre set as examples
+Keys 1, 2 and 3 come pre set as examples (you can edit these as you see fit, see Programming Macros)
 
 Keys 1 and 2:
 
@@ -49,3 +49,9 @@ Requirements
 python3-tk (Linux / Mac)
 python3-tkinter (Windows)
 pyautogui (pip3 install pyutogui)
+
+
+# Programming Macros
+
+Each Button on the keypad has a corresponding macroN function, eg Button "1"  maps to "macro1" and so on.
+Edit teh functions using python code and pyautogui functions to acheive complex, time saving macros.
