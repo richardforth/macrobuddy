@@ -22,8 +22,19 @@ wait 5 seconds
 macro will play
 
 # Advanced Macros
-I am working an an advanced macro example for key 3 as a preset
-- Use pyautogui
+Example in slot 3 as a preset
+- Uses pyautogui
+
+Open up Excel / LibreOffice Calc / OpenOffice Calc
+Add a range of values acrowss a few columms
+Click on Macrobuddy Preset 3
+Before the 5 second timer finishes, click on Top right most cell of the range., eg Cell A1 or A2
+Macro will start
+- Presses CTRL+SHIFT+RIGHT
+- Presses CTRL+SHIFT+DOWN
+- Presses CTRL+C
+
+For more advanced macro python code see the pyautogui documentation: https://pyautogui.readthedocs.io/en/latest/
 
 # OS Support
 
