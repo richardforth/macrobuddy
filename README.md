@@ -63,6 +63,6 @@ Unless to program in all of the hotkeys and shortcuts required for all of the st
 
 # Testing Macros can cause undefined behaviour / data loss
 
-If you mis-time an action, it is possibel that undefined behaviour can occur, including data loss. 
+If you mis-time an action, it is possible that undefined behaviour can occur, including data loss. 
 
 I am not going to be held liable for your mistakes in programming your macros.
