@@ -63,6 +63,11 @@ Unless to program in all of the hotkeys and shortcuts required for all of the st
 
 # Testing Macros can cause undefined behaviour / data loss
 
-If you mis-time an action, it is possible that undefined behaviour can occur, including data loss. 
+If you mis-time an action, it is possible that undefined behaviour can occur when running macros, including data loss. 
 
-I am not going to be held liable for your mistakes in programming your macros.
+If the macro isnt too long you can usually back out changes to files with CTRL+z,
+providing the file hasnt been saved /closed as part of the macro
+
+I am not going to be held liable for your mistakes in programming your macros or your use of this program.
+
+See MIT License Terms in "LICENSE"
