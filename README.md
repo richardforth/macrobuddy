@@ -31,7 +31,7 @@ Example in slot 3 as a preset
 - Uses pyautogui
 
 Open up Excel / LibreOffice Calc / OpenOffice Calc
-Add a range of values acrowss a few columms
+Add a range of values across a few columns
 Click on Macrobuddy Preset 3
 Before the 5 second timer finishes, click on Top right most cell of the range., eg Cell A1 or A2
 Macro will start
