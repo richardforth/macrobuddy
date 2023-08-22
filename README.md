@@ -66,7 +66,9 @@ Unless to program in all of the hotkeys and shortcuts required for all of the st
 If you mis-time an action, it is possible that undefined behaviour can occur when running macros, including data loss. 
 
 If the macro isnt too long you can usually back out changes to files with CTRL+z,
-providing the file hasnt been saved /closed as part of the macro
+providing the file hasnt been saved /closed as part of the macro.
+
+I would recommend taking a backup of the file before running a macro againast it, eg a spreadsheet or document.
 
 I am not going to be held liable for your mistakes in programming your macros or your use of this program.
 
