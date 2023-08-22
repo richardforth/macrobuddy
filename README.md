@@ -9,17 +9,22 @@ A 9 key macro keyboard emulator
 
 A 9 key programmable* software based macro keyboard.
 
-* Edit any one of the 9 macro functions using python code / pyatogui key combinations
+* Edit any one of the 9 macro functions using python code / pyautogui key combinations
+* 1, 2, 3 are preset samples
 
 # Usage
 
-Keys 1 and 2 come pre set
+Keys 1, 2 and 3 come pre set as examples
+
+Keys 1 and 2:
 
 Open an editor
 Open MacroBuddy
 Press key one, you have 5 seconds to click  on to the editor window / text input
 wait 5 seconds
 macro will play
+
+Key 3: See Advanced Macros
 
 # Advanced Macros
 Example in slot 3 as a preset
