@@ -93,7 +93,6 @@ class Application(Frame):
         # get values from the GUI
         myText = text
         lines = myText.splitlines()
-        time.sleep(5) 
         self.typout(lines)
         # https://github.com/asweigart/pyautogui/issues/46#issuecomment-132640299
 
