@@ -67,12 +67,12 @@ class Application(Frame):
 
         Button(self,
                text = "8",
-               command = self.macro2
+               command = self.macro8
                ).grid(row = 3, column = 1, sticky = "nsew")
 
         Button(self,
                text = "9",
-               command = self.macro3
+               command = self.macro9
                ).grid(row = 3, column = 2, sticky = "nsew")
 
 
