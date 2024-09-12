@@ -1,4 +1,4 @@
-# MacroBoddy
+# MacroBuddy
 # Type out user defined macros automatically after 5 seconds
 
 from tkinter import *
