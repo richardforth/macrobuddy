@@ -1,5 +1,5 @@
-# KeyboardPal
-# Type out user input automatically after 5 seconds
+# MacroBoddy
+# Type out user defined macros automatically after 5 seconds
 
 from tkinter import *
 from tkinter import scrolledtext
