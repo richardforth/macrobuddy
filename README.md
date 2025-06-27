@@ -73,3 +73,31 @@ I would recommend taking a backup of the file before running a macro againast it
 I am not going to be held liable for your mistakes in programming your macros or your use of this program.
 
 See MIT License Terms in "LICENSE"
+
+# Useful Macros
+
+
+## UK Pound Sign (£)
+Note: ENTER or SPACE works
+
+```python
+        """ GBP Sign (£) """
+        time.sleep(SLEEP_DELAY) # Leave this line as it creates the 3 second delay
+        pyautogui.hotkey('ctrl', 'shift', 'u')
+        message="00a3"
+        self.typit(message)
+        pyautogui.hotkey("enter")
+```
+
+
+## Euro Sign (€)
+Note: ENTER or SPACE works
+
+```python
+        """ Euro Sign (€) """
+        time.sleep(SLEEP_DELAY) # Leave this line as it creates the 3 second delay
+        pyautogui.hotkey('ctrl', 'shift', 'u')
+        message="20ac"
+        self.typit(message)
+        pyautogui.hotkey("enter")
+```
